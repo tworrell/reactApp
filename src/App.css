@@ -1,22 +1,79 @@
-.App {
-  text-align: center;
+.Panel1{
+  padding: 10% 15%;
+  padding-bottom: 15rem;
+  
+}
+.Words1{
+  max-width: 40%;
+  padding-left: 5%;
+  display: inline-block;
+ 
+ 
 }
 
-.App-logo {
-  height: 40vmin;
+.panel2{
+  padding: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Beams-logo{
+  float: right;
+  padding-right: 10%;
+  vertical-align: text-top;
+  padding-bottom: 18rem;
 }
 
-.App-link {
-  color: #09d3ac;
+.words2 h1 p{
+  vertical-align: middle;
+  padding-right:  34rem;
+  padding-top: 14rem;
+  -ms-flex-line-pack: inherit;
+  max-width: 30%;
 }
+
+.Move-logo{
+  float: left;
+    margin-right: 10px;
+   padding: 28% 5% 30% 10%; /* helped to align photo in addition to p element */
+
+}
+
+.Words3 h1 p{
+  margin-inline-start: inherit;
+  margin-left: 4px;
+    overflow:auto;
+    display:inline-block;
+    padding: 20% 30% 60% 40%;
+  
+}
+
+.Main-panel{
+  background: linear-gradient(180deg, #2b2b2b 38.8%, white 125%);
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+  
+  padding-top: 12%;
+  padding-bottom: 40rem;
+  
+}
+
+@media screen and (max-width: 1000px), (min-width: 800px) {
+	.words1, .words2, .Words3 {
+		padding-left: 0;
+		width: 80%;
+		margin: auto;
+	}
+	.Panel{
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+	.Main-panel{
+		float: none;
+	}
+	.Main-panel {
+		margin: 40px;
+	}
+}
+
+
