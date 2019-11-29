@@ -10,7 +10,7 @@ Thank you for checking out my first React project ever!
  2. ```cd``` into the directory and run ```npm install```
  3. Run ```npm start```, which should start a local server at localhost:3000.
 
-Runs the app in the development mode.<br />
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
