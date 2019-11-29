@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Thank you for checking out my first React project ever!
 
-### `To Run this program`
+### To Run this Program
 
  1. Clone this Repo
  2. ```cd``` into the directory and run ```npm install```
