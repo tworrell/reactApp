@@ -57,7 +57,7 @@
   
 }
 
-@media screen and (max-width: 1000px), (min-width: 800px) {
+@media screen and (max-width: 1200px), (min-width: 800px) {
 	.words1, .words2, .Words3 {
 		padding-left: 0;
 		width: 80%;
